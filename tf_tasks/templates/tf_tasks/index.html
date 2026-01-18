@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>TF Tasks</title>
+    <link rel="stylesheet" href="{% static 'tf_tasks/style.css' %}">
+</head>
+<body>
+<h1>Система тестування нейронної мережі</h1>
+
+<ul>
+    <li><a href="{% url 'tf_tasks:task1' %}">1. Розпізнавання зображення</a></li>
+    <li><a href="{% url 'tf_tasks:task2' %}">2. Розпізнавання елементів у відео</a></li>
+    <li><a href="{% url 'tf_tasks:task3' %}">3. Розпізнавання звуку</a></li>
+    <li><a href="{% url 'tf_tasks:task4' %}">4. Розпізнавання елементів спектру сигналу</a></li>
+    <li><a href="{% url 'tf_tasks:task5' %}">5. Детекція аномалій у даних</a></li>
+</ul>
+</body>
+</html>

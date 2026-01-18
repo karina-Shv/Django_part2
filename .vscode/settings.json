@@ -1,0 +1,9 @@
+{
+    "python.defaultInterpreterPath": "C:/Users/Anny/Django_task2/tf-env/Scripts/python.exe",
+    "python.analysis.extraPaths": [
+        "C:/Users/Anny/Django_task2/tf-env/Lib/site-packages"
+    ],
+    "python-envs.pythonProjects": [],
+    "python.analysis.typeCheckingMode": "off"
+    
+}

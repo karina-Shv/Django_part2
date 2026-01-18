@@ -1,0 +1,7 @@
+<h2>3. Розпізнавання звуку</h2>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="audio">
+    <button type="submit">Відправити</button>
+</form>
+<p>{{ result }}</p>

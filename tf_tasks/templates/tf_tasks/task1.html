@@ -1,0 +1,9 @@
+<h2>1. Розпізнавання зображення</h2>
+
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="image" accept="image/*">
+    <button type="submit">Відправити</button>
+</form>
+
+<p>{{ result }}</p>

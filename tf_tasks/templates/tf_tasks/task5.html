@@ -1,0 +1,7 @@
+<h2>5. Детекція аномалій у даних</h2>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="file">
+    <button type="submit">Відправити</button>
+</form>
+<p>{{ result }}</p>

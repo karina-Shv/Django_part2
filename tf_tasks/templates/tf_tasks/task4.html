@@ -1,0 +1,7 @@
+<h2>4. Розпізнавання елементів спектру сигналу</h2>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="audio" accept=".wav">
+    <button type="submit">Відправити</button>
+</form>
+<p class="result">{{ result }}</p>

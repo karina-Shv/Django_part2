@@ -1,0 +1,7 @@
+<h2>2. Розпізнавання елементів у відео</h2>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="video">
+    <button type="submit">Відправити</button>
+</form>
+<p>{{ result }}</p>
